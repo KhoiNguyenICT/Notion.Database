@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>NotionCore</AssemblyName>
+    <RootNamespace>NotionCore</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>NotionCore</Title>
+    <Authors>KhoiNguyenICT</Authors>
+    <PackageProjectUrl>https://github.com/KhoiNguyenICT/NotionCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/KhoiNguyenICT/NotionCore</PackageLicenseUrl>
+    <PackageTags>notion,notioncore,notion core,notion database,notion sdks</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotionCore.Abstractions\NotionCore.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
